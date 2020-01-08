@@ -1,8 +1,12 @@
 import React from 'react';
-
+import SearchBar from './SearchBar';
 
 const App = () => {
-    return <div>Tharindu</div>;
+    return (
+        <div>
+            <SearchBar />
+        </div>
+    ); 
 };
 
 export default App;
