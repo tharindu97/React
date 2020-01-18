@@ -19,7 +19,7 @@ class SearchBar extends React.Component{
                             onChange={e => this.setState({ term: e.target.value})}
                         />
                     </div>
-                </form>
+                </form> 
             </div>
         );
     }
