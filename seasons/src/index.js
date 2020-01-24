@@ -1,3 +1,4 @@
+// import dependency
 import React from 'react';
 import ReactDOM from 'react-dom';
 import SeasonDisplay from './SeasonDisplay';
@@ -32,4 +33,5 @@ class App extends React.Component {
             );
         }
     }
+    // React Render
 ReactDOM.render(<App /> , document.querySelector('#root'));  
